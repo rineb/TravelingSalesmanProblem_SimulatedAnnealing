@@ -19,7 +19,7 @@ public class Main {
         for (int i = 0; i < bestTourExp.size(); i++) {
             System.out.println(bestTourExp.get(i));
         }
-        System.out.println("Prishtine");
+        System.out.println(bestTourExp.get(0));
         System.out.println("(Exponential) The distance of the tour is: "
                 + new DecimalFormat("##.##").format(saExp.getMinDistance()) + " km.");
 
@@ -39,7 +39,7 @@ public class Main {
         for (int i = 0; i < bestTourMod.size(); i++) {
             System.out.println(bestTourMod.get(i));
         }
-        System.out.println("Prishtine");
+        System.out.println(bestTourMod.get(0));
         System.out.println("(Modulo) The distance of the tour is: "
                 + new DecimalFormat("##.##").format(saMod.getMinDistance()) + " km.");
 
@@ -59,7 +59,7 @@ public class Main {
         for (int i = 0; i < bestTourLog.size(); i++) {
             System.out.println(bestTourLog.get(i));
         }
-        System.out.println("Prishtine");
+        System.out.println(bestTourLog.get(0));
         System.out.println("(Logarithmic) The distance of the tour is: "
                 + new DecimalFormat("##.##").format(saLog.getMinDistance()) + " km.");
     }
